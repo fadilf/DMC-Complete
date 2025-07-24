@@ -5,7 +5,8 @@ __This app has only been tested in LV 2024 and 2025. I don't have any reason to 
 Dependencies:
 - NI Report Generation Toolkit (NIPM)
 - MGI File Toolkit (VIPM)
-- JDP SQLite Toolkit (VIPM)
+- JDP SQLite Library (VIPM)
+- Cryptographic Functions (VIPM)
 
 ## Set up
 1. Place the DMC-Complete folder at an install location of your choice.
@@ -21,9 +22,8 @@ Dependencies:
 2. Run the `Autocompleter.vi` file.
 3. Use the suggestions that appear to help you code.
 
-## QuickDrop Integration
-__NOTE: Make sure to back up the original files this operation will replace.__
-1. Go to the directory in which you've put the application and then navigate to the `QuickDrop` folder.
-2. Open `Convert QD Object String to 2D Array.vi` and `QuickDrop Process Drop Information.vi`
-3. Change the path specified in both files to the Autocomplete app directory.
-4. Copy the files from `QuickDrop` into `<LabVIEW Dir>\resource\dialog\QuickDrop`.
+## QuickDrop Integration (Optional, early beta)
+1. Open `<LabVIEW Dir>\resource\dialog\QuickDrop`
+2. Rename `Convert QD Object String to 2D Array.vi` to `Convert QD Object String to 2D Array - Backup.vi`
+3. Rename `QuickDrop Process Drop Information.vi` to `QuickDrop Process Drop Information - Backup.vi`
+4. Copy the files from `DMC-Complete\QuickDrop` into `<LabVIEW Dir>\resource\dialog\QuickDrop` and open them to make sure that load dependencies correctly.
