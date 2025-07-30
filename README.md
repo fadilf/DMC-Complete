@@ -3,10 +3,7 @@
 __This app has only been tested in LV 2024 and 2025. I don't have any reason to believe it won't work in other versions but I make no guarantees.__
 
 Dependencies:
-- NI Report Generation Toolkit (NIPM)
-- MGI File Toolkit (VIPM)
 - JDP SQLite Library (VIPM)
-- Cryptographic Functions (VIPM)
 
 ## Set up
 1. Place the DMC-Complete folder at an install location of your choice.
