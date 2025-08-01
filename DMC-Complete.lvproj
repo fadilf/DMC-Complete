@@ -22,7 +22,6 @@
 			<Item Name="Data Directory.vi" Type="VI" URL="../Data Directory.vi"/>
 			<Item Name="DBMap.lvclass" Type="LVClass" URL="../DBMap/DBMap.lvclass"/>
 			<Item Name="DBSet.lvclass" Type="LVClass" URL="../DBSet/DBSet.lvclass"/>
-			<Item Name="Force Move File.vi" Type="VI" URL="../Force Move File.vi"/>
 			<Item Name="Get Terminal Predecessors.vi" Type="VI" URL="../Get Terminal Predecessors.vi"/>
 			<Item Name="Index VI.vi" Type="VI" URL="../Index VI.vi"/>
 			<Item Name="Indexer Action.ctl" Type="VI" URL="../Indexer Action.ctl"/>
