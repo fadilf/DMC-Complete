@@ -46,4 +46,4 @@ __NOTE: The source code for this project has been saved with LabVIEW 2024.__
 5. Run `Autocompleter.vi` and suggestions should start appearing in QuickDrop.
 
 ## Can I contribute?
-Absolutely! There are many ways for you to help out from raising an issue for bugs you've spotted or features you'd like to making a pull request with code that addresses open issues. To learn more, check out the [`CONTRIBUTING.md`](/fadilf/DMC-Complete/blob/main/CONTRIBUTING.md) guide.
+Absolutely! There are many ways for you to help out from raising an issue for bugs you've spotted or features you'd like to making a pull request with code that addresses open issues. To learn more, check out the [`CONTRIBUTING.md`](CONTRIBUTING.md) guide.
