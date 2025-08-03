@@ -5,9 +5,13 @@
 DMC-Complete is a tool for LabVIEW users that suggests your next block for you while you program. Simply select on a block on your block diagram and instantly receive suggestions for the next block to use and drop it with a single-click.
 
 ⚡ Blazing fast – predictions in a fraction of a second
+
 💻 Runs entirely on device – no internet needed
+
 💾 Tiny footprint on your disk, CPU, and RAM
+
 🧩 Supports all your custom libraries
+
 🤝 Completely open source under the BSD 3-Clause License
 
 ## How does it work?
