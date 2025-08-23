@@ -16,9 +16,20 @@ DMC-Complete is a tool for LabVIEW users that suggests your next block for you w
 
 ## How does it work?
 Under the hood, DMC-Complete uses a Markov chain model trained on code you provide it to build a key-value map of the form:
-block -> a list of subsequent blocks and how often they appear together
+
+List of "parent blocks" -> List of subsequent blocks and how often they appear afterwards
 
 When you select a block, it checks the map and provides suggestions to you in decreasing order of occurrences in the training data. This approach to next-block prediction is uniquely suited to LabVIEW where variables don't have names and code is easy to represent graphically.
+
+### Can I build my own ML pipeline with this?
+In the indexing and autocompletion process, there is a `MarkovModel` class that is given training data and later used to predict subsequent blocks. It inherits from the `AbstractModel` class, which defines the core interface for training and prediction.
+
+To implement your own pipeline:
+- Create a new class that extends `AbstractModel`.
+- Implement the required methods (e.g., `Train`, `Predict`).
+- Point the indexer and autocompleter to use your model instead of `MarkovModel`.
+
+This allows you to experiment with alternative ML approaches while still using the same indexing and autocompletion infrastructure.
 
 ## How do I start using it?
 
