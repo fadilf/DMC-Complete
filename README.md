@@ -34,7 +34,7 @@ This allows you to experiment with alternative ML approaches while still using t
 ## How do I start using it?
 
 ### Installation
-__NOTE: The source code for this project has been saved with LabVIEW 2024.__
+__NOTE: The source code for this project has been saved with LabVIEW 2020.__
 1. Install the [SQLite Library by JDP Science](https://www.vipm.io/package/drjdpowell_lib_sqlite_labview/) using VIPM
 2. [Download](https://github.com/fadilf/DMC-Complete/archive/refs/heads/main.zip) and extract the code or clone the repo to an install location of your choice.
 3. Open `DMC-Complete.lvproj`
