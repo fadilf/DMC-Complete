@@ -43,10 +43,13 @@
 			<Item Name="Count Pattern Frequencies.vi" Type="VI" URL="../Count Pattern Frequencies.vi"/>
 			<Item Name="Create or Update Palette.vi" Type="VI" URL="../Create or Update Palette.vi"/>
 			<Item Name="Data Directory.vi" Type="VI" URL="../Data Directory.vi"/>
+			<Item Name="Directory Contents Copy.vi" Type="VI" URL="../Directory Contents Copy.vi"/>
 			<Item Name="Get Terminal Predecessors.vi" Type="VI" URL="../Get Terminal Predecessors.vi"/>
 			<Item Name="Index VI.vi" Type="VI" URL="../Index VI.vi"/>
 			<Item Name="Label GObject.vi" Type="VI" URL="../Label GObject.vi"/>
+			<Item Name="Load Pre-Index.vi" Type="VI" URL="../Load Pre-Index.vi"/>
 			<Item Name="Node Style to ID.vi" Type="VI" URL="../Node Style to ID.vi"/>
+			<Item Name="Package Version.vi" Type="VI" URL="../Package Version.vi"/>
 			<Item Name="Parallel Index VIs.vi" Type="VI" URL="../Parallel Index VIs.vi"/>
 			<Item Name="Parallel Process Markov Chains.vi" Type="VI" URL="../Parallel Process Markov Chains.vi"/>
 			<Item Name="Resize VI FP in place.vi" Type="VI" URL="../Resize VI FP in place.vi"/>

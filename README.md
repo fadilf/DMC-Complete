@@ -39,6 +39,7 @@ __NOTE: The source code for this project has been saved with LabVIEW 2024.__
 2. [Download](https://github.com/fadilf/DMC-Complete/archive/refs/heads/main.zip) and extract the code or clone the repo to an install location of your choice.
 3. Open `DMC-Complete.lvproj`
 4. From the Project Explorer view, run `Indexer.vi`
+    0. Click "Load Pre-Index" to download an index built on the default LabVIEW example files that should speed up the training process significantly.
     1. Click "Load Example Paths" to use the example files for your version of LabVIEW and examples for your installed libraries.
     2. Add any folders of code you'd like to train on in addition.
     3. Click "Run Training" and wait for the process to complete. If you need to stop the process early, you can click the stop button in the top right corner and cleanly end the process. Repeating the previous steps should let you pick up where you left off in training.
